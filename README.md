@@ -44,7 +44,7 @@ open index.html
 
 ### Play online
 
-Live demo: [https://yourusername.github.io/void/](https://yourusername.github.io/void/)
+Live demo: [https://yourusername.github.io/void/](https://ymsniper.github.io/VOID/)
 
 ---
 
