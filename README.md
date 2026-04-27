@@ -1,5 +1,7 @@
 # VOID — +18 Psychological Horror Quiz
-
+---
+<img width="1920" height="1080" alt="Screenshot_20260427_032308" src="https://github.com/user-attachments/assets/618cd136-0529-4861-be6e-fe1c00300dc3" />
+---
 > *How deep does it go?*
 
 A dark, interactive psychological horror experience built with vanilla HTML, CSS, and JavaScript. Featuring atmospheric audio, jumpscares, glitch effects, and 9 unique psychological profiles.
