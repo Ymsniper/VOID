@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Void</title>
+  <link rel="stylesheet" href="../src/css/base.css" />
+  <link rel="stylesheet" href="../src/css/animations.css" />
+</head>
+<body>
+  <canvas id="bgc"></canvas>
+  <canvas id="jsc"></canvas>
+
+  <div id="ghost-msg"></div>
+  <div id="crash-ov">
+    <div class="cr-sad">:(</div>
+    <div class="cr-main">Something went wrong, but not quite enough to stop.</div>
+    <div class="cr-code">ERROR: RECOVERY_UNAVAILABLE</div>
+    <div class="cr-pct">0%</div>
+  </div>
+
+  <section id="ag" class="screen active">
+    <h1>AGE WARNING</h1>
+    <div class="wbox">
+      This experience contains intense psychological horror, disturbing imagery, and flashing effects.
+    </div>
+    <p>By continuing, you confirm that you are comfortable with that content.</p>
+    <button class="btn" onclick="agePass()"><span>ENTER</span></button>
+  </section>
+
+  <section id="intro" class="screen">
+    <div class="gtitle">VOID</div>
+    <div class="gsub">A Psychological Test</div>
+    <div class="ghr"></div>
+    <div class="gdesc">Answer honestly. The test will notice.</div>
+    <button class="btn" onclick="startGame()"><span>BEGIN</span></button>
+  </section>
+
+  <section id="qs" class="screen">
+    <div class="qhdr">
+      <div id="qctr" class="qctr"></div>
+      <div class="pbar"><div id="pfill" class="pfill"></div></div>
+    </div>
+    <div id="qtext" class="qtext"></div>
+    <div id="qopts" class="qopts"></div>
+    <div id="reaction" class="reaction"></div>
+    <div id="hesit"></div>
+  </section>
+
+  <section id="ilu" class="screen">
+    <div id="ilu-txt" class="ilu-txt"></div>
+  </section>
+
+  <section id="fake-load" class="screen">
+    <div class="fl-label">Analyzing</div>
+    <div class="fl-track"><div id="fl-bar" class="fl-bar"></div></div>
+    <div id="fl-sub" class="fl-sub"></div>
+  </section>
+
+  <section id="res" class="screen">
+    <div class="rlabel">RESULT</div>
+    <div id="rword" class="rword"></div>
+    <div id="rtitle" class="rtitle"></div>
+    <div class="rhr"></div>
+    <div id="rdesc" class="rdesc"></div>
+    <div id="rtraits" class="rtraits"></div>
+    <div id="rwarning" class="rwarning"></div>
+    <button class="btn ragain" onclick="resetGame()"><span>TRY AGAIN</span></button>
+  </section>
+
+  <script src="../src/js/profiles.js"></script>
+  <script src="../src/js/questions.js"></script>
+  <script src="../src/js/audio.js"></script>
+  <script src="../src/js/canvas.js"></script>
+  <script src="../src/js/engine.js"></script>
+</body>
+</html>
