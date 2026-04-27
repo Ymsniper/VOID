@@ -1,4 +1,4 @@
-# VOID — +18 Psychological Horror Quiz
+# VOID 🌀 +18 Psychological Horror Quiz
 ---
 <img width="1920" height="1080" alt="Screenshot_20260427_032308" src="https://github.com/user-attachments/assets/618cd136-0529-4861-be6e-fe1c00300dc3" />
 ---
